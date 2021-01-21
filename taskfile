@@ -1,0 +1,176 @@
+8/01/2021
+---------------------------
+
+1.create a ppt in vpc and loadbalancer
+
+2.create a vpc , subnets ,igw.nat-gate-way, routetables
+9/01/2021
+------------
+
+3. lunch the bastion and lunch the application server and install the jenkins
+
+4.create a cluster 
+              pre-rqe:  1.download the eksctl
+                        2.download the kubectl
+                        3. download the aws cli
+                        4. download the aws-iam authentication
+10.01.2021
+--------------------------
+1.EXPLIAN THE VPC AND LOADBALANCER KT
+
+ 
+11.01.2021
+-----------------------------
+
+1.create a rds on conneted by application  and create databases
+
+11.01.2021
+--------------------
+
+1. create folder in desktop on the sub folders
+
+2. Frist create local ssh-keygen 
+
+2.login to the github and create a repositorys 
+
+3. create a four reopsitorys : 1. apache
+                               2. nginx
+                               3. tomcat
+                            
+                               5. scripts
+
+4. choose the apache reopsitory  and write the index.html & dockerfile and push the scm
+
+git init
+git add .
+git remote
+git commit -m "msg"
+git push
+
+
+5. choose the nginx reopsitory  and write the index.html & dockerfile and push the scm
+
+git init
+git add .
+git remote
+git commit -m "msg"
+git push
+
+6. choose the tomcat reopsitory  and write the dockerfile and push the scm
+
+git init
+git add .
+git remote
+git commit -m "msg"
+git push 
+
+
+7. choose the scripts reopsitory  and write sell scripts and push the scm
+
+
+8. all repos are private
+
+9. only for ssh clone
+
+
+10.launch five ec2-instance apache,nginx,tomcat,jenkins.eks(iam role cteate)
+
+11.all instance only for the  clone for the scripts
+
+12. all instance ssh-keygen and add the github
+  
+
+13 .login to the jenkins create folders 
+  1. freestyle and pipline 
+
+
+14. login to the freestyle folder create jobs
+apache ,nginx& tomcat
+
+15. login to the pipline folder create jobs 
+apache ,nginx & tomcat
+
+16. run the freestyle jobs add the git repo url code will get into the work space
+
+
+
+
+
+
+
+
+
+
+
+
+12.01.2021
+----------------------------------
+
+1. login to jenkins  install docker and install git
+
+2. build the dockerfile upload the s3
+
+3.cteate a bucket and upload the dockerfile data 
+
+
+
+
+
+
+
+
+
+
+19.01.2021
+---------------------------------------------
+
+1.lunch the ansible (master) and 2 nodes
+
+2. ansible node1 &ansible node2
+
+3. login to the ansible master and genreate the ssh-keygen (ssh pass word less setup)
+4. login to the ansible node1 & node2 and add the ssh-key 
+
+5. we update the yum 
+6 . when i install the ansible and  start the ansible 
+;:
+7.when i login to the hosts invertory and add the ansible nodes ip address
+
+8. when i create apache ansible-playbook.yaml & nginx ansible-playbook.yaml
+9. running the apache ansible-playbook.yaml install the httpd
+10.create the loadbalancer and add the ansible node1 
+
+
+
+
+
+
+
+
+
+20..1.2021
+---------------------
+
+1when create nginx yaml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

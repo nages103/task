@@ -1,0 +1,21 @@
+8/01/2021
+---------------------------
+
+1.create a ppt in vpc and loadbalancer
+
+2.create a vpc , subnets ,igw.nat-gate-way, routetables
+9/01/2021
+------------
+
+3. lunch the bastion and lunch the application server and install the jenkins
+
+4.create a cluster 
+              pre-rqe:  1.download the eksctl
+                        2.download the kubectl
+                        3. download the aws cli
+                        4. download the aws-iam authentication
+10.01.2021
+--------------------------
+
+
+  
