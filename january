@@ -1,4 +1,19 @@
 21.01.2021
 --------------
 
-1.when i listen the devops videos 
+1.when i listen the devops videos
+
+
+22.01.2021
+--------------------
+cicd in k8
+---------------------------------
+1.setup on the vpc
+2. lunch the ec2-instance there 3
+3. create sg groups
+4. create ssh password less setup
+5. later install the jenkins
+6. install the docker
+7. install git
+8. create job and run the job
+9. create a cluster
