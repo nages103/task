@@ -17,3 +17,50 @@ cicd in k8
 7. install git
 8. create job and run the job
 9. create a cluster
+
+23.01.2021
+---------------------\
+1. create a cluster
+2. lunch docker instance
+
+3. install the docker
+
+4.create a docker images
+
+5.lunch the eks instance
+
+6. deploy the k8
+
+25.01.2021
+-----------------------/
+
+1. install eksctl ,kubectl, aws,iam
+
+2. write the yaml
+
+26.01.2021
+-------------------/
+1.review the vpc and loadbalancers
+
+2. route53 class
+
+27.01.2021
+---------------/
+review the k8
+
+28.01.2021
+---------------/
+lunch the bastionserver
+lunch te jenkins
+lunch tomcat server
+create passwordless setup
+create job and run the job
+job is failded
+
+
+29.01.2021
+------------------
+1. lunch the apache server write the index.html file and add the image
+
+2.lunch the server  and add theebs volumes
+
