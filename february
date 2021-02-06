@@ -21,4 +21,18 @@
 4.02.2021
 -----------------
 1. we prepair the interview  
- 
+5.02.2021
+----------------------
+1. create vpc, subnets,igw,nat-gate-way,routetable
+2. eksctl,kubectl,aws cli,aws-iam authotiction
+1. using yamlfile when create a cluster
+2. using our own vpc
+
+
+06.01.2021
+------------------------
+1. choosing devops videos
+2.using the docker commands
+3. lunch the one docker instance 
+
+  
