@@ -35,4 +35,30 @@
 2.using the docker commands
 3. lunch the one docker instance 
 
+
+
+using the docker-compose and install the wordpress
+------------------------------------------------------------------------
+1. fristly lunch docker engine server and our own vpc
+2. login to the server and install the docker & docker compose
+3. after create a folder 
+4. then download the wordpress and extract the tar.file
+5. create docker-compuse.yaml
+5.run the docker-compose.yaml 
+6. run the images
+7. acess the ip wordpress path 
+8.create mysql data base
+-------------------------------------------------------------------
+using the docker-compose bridge network
+
+1.frist create networking bridge  command
+docker network create test NETWORk
+ docker run -itd --network=test httpd
+  docker ps
+ docker images
+ docker inspect 68b06b3f508c
+------------------------------------------------------------------------
+
+2. after create volumes in docker-compose
+
   
