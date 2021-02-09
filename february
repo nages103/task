@@ -63,3 +63,17 @@ docker network create test NETWORk
 2. after create volumes in docker-compose
 
   
+
+ 09.02.2021
+-----------------
+1. login to the jenkins ui dashborad goto the mangejenkins then create user and permissions
+2.after install minikube in your local
+3. and next install vm in local
+4. minikube start 
+5.kubectl get nodes not working we come some errors
+6. jenkins master and slave  
+7. launch the 2 ec2
+8. one is master and onther one is slave
+9.in master jenkins create password less setup in slave(jenkins bash)
+10.in master install java & jenkins and in slave install only fr the java
+11. login jenkins ui dashbord goto the mangejenkins and create nodes slave
