@@ -77,3 +77,26 @@ docker network create test NETWORk
 9.in master jenkins create password less setup in slave(jenkins bash)
 10.in master install java & jenkins and in slave install only fr the java
 11. login jenkins ui dashbord goto the mangejenkins and create nodes slave
+
+
+
+10.02.2021
+
+--------------------------
+
+1.lunch the  ec2 in your account & assing iam role
+
+2.login to the server instll the eksctl,kubectl,aws cli,aws-iam authenticator.
+3.in server create cluster
+4.write the configmap.yaml and apply the configmap.yaml
+5.define the user-arn and user name
+6.next login to the local cmd
+7.install the awscli,aws-iam authenticator
+8.awsconfig Access key,secret key in your local
+9.aws kubeconfig file updatese
+10.next run the kubectl get nodes
+11.acess to the kubectl get nodes in your local down
+---------------------------------------------
+1. jenkins master slave configurtion done
+
+
