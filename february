@@ -99,4 +99,13 @@ docker network create test NETWORk
 ---------------------------------------------
 1. jenkins master slave configurtion done
 
-
+11.02.2021
+-----------------
+1.shell script task
+take tw numbers print bigger number
+take shell script arguments 10
+shell script concept:-
+if condition-->control statements
+loops
+develop a basic html website using headers concept
+using the docker compose deploy the tomcat
