@@ -121,3 +121,16 @@ using the docker compose deploy the tomcat
 2. using docker commands
 3. deploy one app
 4.basic of python
+
+
+16.02.2021
+-----------------
+1.uninstall kubectl in your local
+ 
+2. shell script -take two numbers input
+
+3. awk/sed
+4.sort
+uniq
+5.python3 -- hello world
+ 
