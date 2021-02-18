@@ -133,4 +133,25 @@ using the docker compose deploy the tomcat
 4.sort
 uniq
 5.python3 -- hello world
- 
+
+17.02.2021
+----------------------
+1. conditional statements in python
+
+
+a=10
+b=20
+c=91
+
+if a>b and a>c:
+    print (a, "bigger")
+elif b>c and b>a:
+    print (b, "is bigger")
+else:
+    print (c, "is a bigger")
+	
+
+1.awk/sed
+2.sort
+uniq
+3.python3 -- hello world
