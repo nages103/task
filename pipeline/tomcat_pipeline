@@ -1,0 +1,35 @@
+pipeline{
+    agent any
+    tools{
+        maven 'maven3'
+    }
+     stages{
+     stage('checkout'){
+         steps{
+            checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'a0b626bf-8f61-4b4f-947d-f959e1721202', url: 'https://github.com/nages103/sparkjava-war-example.git']]])
+         }          
+         }
+     stage('build'){
+        steps{
+            sh "mvn clean package"
+        }
+        }
+    stage('s3 upload'){
+        steps{
+        sh 'mv /var/lib/jenkins/workspace/pipeline/target/sparkjava-hello-world-1.0.war  /var/lib/jenkins/workspace/pipeline/target/sparkjava.war'
+        sh 'aws s3 cp /var/lib/jenkins/workspace/pipeline/target/sparkjava.war s3://shoopingcart/'
+        }
+    }
+    stage('deploy'){
+        steps{
+            sh 'aws s3 cp s3://shoopingcart/sparkjava.war .'
+            sh 'scp sparkjava.war root@172.31.8.212:/opt/tomcat9/webapps/sparkjava.war'
+        }
+    }
+        
+       
+    }
+}
+    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------    
+		
