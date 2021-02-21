@@ -1,21 +1,167 @@
-8/01/2021
----------------------------
+1.02.2021
+......................
 
-1.create a ppt in vpc and loadbalancer
+1.k8 deployment yaml
 
-2.create a vpc , subnets ,igw.nat-gate-way, routetables
-9/01/2021
-------------
+2.02.2021
+----------------
+1.apache and nginx & tomcat deployment yamlfile we can run
 
-3. lunch the bastion and lunch the application server and install the jenkins
+3.02.2021
+-----------------------  
 
-4.create a cluster 
-              pre-rqe:  1.download the eksctl
-                        2.download the kubectl
-                        3. download the aws cli
-                        4. download the aws-iam authentication
-10.01.2021
+1. lunch the ansible master
+
+2. lunch the ansible nodes 
+
+3. create pass word less setup
+
+5. we install apache & nginx yamlfile
+
+4.02.2021
+-----------------
+1. we prepair the interview  
+5.02.2021
+----------------------
+1. create vpc, subnets,igw,nat-gate-way,routetable
+2. eksctl,kubectl,aws cli,aws-iam authotiction
+1. using yamlfile when create a cluster
+2. using our own vpc
+
+
+06.01.2021
+------------------------
+1. choosing devops videos
+2.using the docker commands
+3. lunch the one docker instance 
+
+08.02.2021
+---------------
+
+using the docker-compose and install the wordpress
+------------------------------------------------------------------------
+1. fristly lunch docker engine server and our own vpc
+2. login to the server and install the docker & docker compose
+3. after create a folder 
+4. then download the wordpress and extract the tar.file
+5. create docker-compuse.yaml
+5.run the docker-compose.yaml 
+6. run the images
+7. acess the ip wordpress path 
+8.create mysql data base
+-------------------------------------------------------------------
+using the docker-compose bridge network
+
+1.frist create networking bridge  command
+docker network create test NETWORk
+ docker run -itd --network=test httpd
+  docker ps
+ docker images
+ docker inspect 68b06b3f508c
+------------------------------------------------------------------------
+
+2. after create volumes in docker-compose
+
+  
+
+ 09.02.2021
+-----------------
+1. login to the jenkins ui dashborad goto the mangejenkins then create user and permissions
+2.after install minikube in your local
+3. and next install vm in local
+4. minikube start 
+5.kubectl get nodes not working we come some errors
+6. jenkins master and slave  
+7. launch the 2 ec2
+8. one is master and onther one is slave
+9.in master jenkins create password less setup in slave(jenkins bash)
+10.in master install java & jenkins and in slave install only fr the java
+11. login jenkins ui dashbord goto the mangejenkins and create nodes slave
+
+
+
+10.02.2021
+
 --------------------------
+
+1.lunch the  ec2 in your account & assing iam role
+
+2.login to the server instll the eksctl,kubectl,aws cli,aws-iam authenticator.
+3.in server create cluster
+4.write the configmap.yaml and apply the configmap.yaml
+5.define the user-arn and user name
+6.next login to the local cmd
+7.install the awscli,aws-iam authenticator
+8.awsconfig Access key,secret key in your local
+9.aws kubeconfig file updatese
+10.next run the kubectl get nodes
+11.acess to the kubectl get nodes in your local down
+---------------------------------------------
+1. jenkins master slave configurtion done
+
+11.02.2021
+-----------------
+1.shell script task
+take tw numbers print bigger number
+take shell script arguments 10
+shell script concept:-
+if condition-->control statements
+loops
+develop a basic html website using headers concept
+using the docker compose deploy the tomcat
+
+
+
+
+
+15.02.2021
+----------------
+1. develop a basic html website using headers concept
+
+2. using docker commands
+3. deploy one app
+4.basic of python
+
+
+16.02.2021
+-----------------
+1.uninstall kubectl in your local
+ 
+2. shell script -take two numbers input
+
+3. awk/sed
+4.sort
+uniq
+5.python3 -- hello world
+
+17.02.2021
+----------------------
+1. conditional statements in python
+
+
+a=10
+b=20
+c=91
+
+if a>b and a>c:
+    print (a, "bigger")
+elif b>c and b>a:
+    print (b, "is bigger")
+else:
+    print (c, "is a bigger")
+	
+
+1.awk/sed
+2.sort
+uniq
+3.python3 -- hello world
+
+
+18.02.2021
+----------------
+jenkins pipline
+docker-compose tomcat-deploy not run
+use full commands
 
 
   
