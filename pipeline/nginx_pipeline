@@ -1,0 +1,34 @@
+pipeline{
+    agent any
+    stages{
+    stage('check out'){
+        steps{
+            checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: '7c6b3cdd-7832-4c5c-91eb-ca49722a82cd', url: 'https://github.com/nages103/nginx.git']]])
+        }
+    }
+    stage('s3-upload'){
+        steps{
+            sh 'aws s3 cp /var/lib/jenkins/workspace/nginx/index.html s3://pipeline-anna '
+            
+        }
+    }
+    stage('deploy'){
+        steps{
+            sh 'aws s3 cp s3://pipeline-anna/index.html . '
+            sh 'scp index.html root@172.31.13.181:/usr/share/nginx/html/index.html'
+        }
+    }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
