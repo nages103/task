@@ -166,7 +166,9 @@ use full commands
 ------------------
 19.02.2021
 -----------
-python3 
+python3
+
+
 
 20.02.2021
 ------------------
@@ -181,4 +183,24 @@ apache pipline
 nginx pipeline
 apache pipeline
 tomcat pipline
-------------------
+---------------
+
+22.02.2021
+-----------
+1.awk commands are using.
+2.aws account create
+---------------------
+23.02.2021
+--------------
+1.create cluster
+2. install argocd
+3. deploy argocd in service loadbalancer
+4.deploy the argocd  in ingress
+---------------------------------
+24.02.2021
+------------
+1. create account
+2. deploy the argocd in ingress
+
+
+
